@@ -22,16 +22,17 @@ Este tutorial guia você pelo processo de configurar e acessar uma planilha do G
 ## Passo 2: Criar Credenciais de Serviço
 
 1. No Google Cloud Console, vá para "APIs & Services" > "Credentials".
-2. Clique em "Create Credentials" e selecione "Service Account".
-3. Preencha os detalhes da conta de serviço e clique em "Create".
-4. Na seção "Service account permissions", selecione "Project" > "Editor" (ou o papel que você achar adequado).
-5. Clique em "Done" após a criação da conta de serviço.
-6. Na lista de contas de serviço, clique na conta recém-criada e depois em "Add Key" > "Create New Key".
-7. Selecione o formato JSON e clique em "Create". Isso fará o download do arquivo JSON para o seu computador.
+2. Clique em "criar credenciais" e selecione "Contas de serviço".
+3. Preencha o Nome da conta de serviço  clique em "concluir".
+4. Na seção "Contas de serviço", click em "Gerenciar contas de serviço".
+5. Click no tr~es pontinhos do lado direito da conta criada e selecione "gerenciar chaves".
+6. Click em "Adicionar Chave" e depois em "Criar nova chave".
+7. Escolha "JSON" e click em "criar", isso fará o download do arquivo JSON para o seu computador
+.
 
 ## Passo 3: Compartilhar a Planilha com a Conta de Serviço
 
 1. Abra a planilha do Google Sheets que você deseja acessar.
 2. Clique em "Compartilhar" no canto superior direito.
-3. No campo de adicionar pessoas, insira o e-mail da conta de serviço (encontrado no arquivo JSON como `client_email`).
+3. No campo de adicionar pessoas, insira o e-mail da conta de serviço (encontrado no arquivo JSON como `client_email`), ou na parte de crediciais vista anteriomente.
 4. Defina as permissões conforme necessário (Leitor, Editor) e clique em "Enviar".
