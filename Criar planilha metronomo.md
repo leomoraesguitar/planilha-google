@@ -10,4 +10,4 @@
    - passo (bpm)
    - Intervalo(s)
      
-3.Renomei o nome da página para "metronomo"
+3. Renomei a página para "metronomo"
