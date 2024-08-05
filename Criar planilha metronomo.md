@@ -9,4 +9,5 @@
    - BPM fim
    - passo (bpm)
    - Intervalo(s)
+     
 3.Renomei o nome da página para "metronomo"
